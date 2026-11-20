@@ -1,0 +1,33 @@
+## .NET / Visual Studio
+bin/
+obj/
+out/
+publish/
+publish-*/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.DotSettings.user
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+## Local secrets & machine-specific configs
+appsettings.Development.json
+appsettings.Production.json
+appsettings.Local.json
+.env
+.env.local
+
+## Local media storage & logs
+storage/
+logs/
+*.log
+
+## OS files
+.DS_Store
+Thumbs.db
+desktop.ini

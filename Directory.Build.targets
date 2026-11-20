@@ -1,0 +1,5 @@
+<Project>
+  <Target Name="SixLabors_ValidateLicense" BeforeTargets="CoreCompile">
+    <!-- Suppressed license validation -->
+  </Target>
+</Project>
